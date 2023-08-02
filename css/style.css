@@ -1,0 +1,274 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+.pb-xs {
+  padding-block: 0.5rem;
+}
+
+.pb-sm {
+  padding-block: 1rem;
+}
+
+.pb-md {
+  padding-block: 1.5rem;
+}
+
+.pb-lg {
+  padding-block: 2rem;
+}
+
+.pb-xl {
+  padding-block: 2.5rem;
+}
+
+.pb-xxl {
+  padding-block: 3rem;
+}
+
+.pb-giga {
+  padding-block: 5rem;
+}
+
+.pi-xs {
+  padding-inline: 0.5rem;
+}
+
+.pi-sm {
+  padding-inline: 1rem;
+}
+
+.pi-md {
+  padding-inline: 1.5rem;
+}
+
+.pi-lg {
+  padding-inline: 2rem;
+}
+
+.pi-xl {
+  padding-inline: 2.5rem;
+}
+
+.pi-xxl {
+  padding-inline: 3rem;
+}
+
+.pi-giga {
+  padding-inline: 5rem;
+}
+
+.mb-xs {
+  margin-block: 0.5rem;
+}
+
+.mb-sm {
+  margin-block: 1rem;
+}
+
+.mb-md {
+  margin-block: 1.5rem;
+}
+
+.mb-lg {
+  margin-block: 2rem;
+}
+
+.mb-xl {
+  margin-block: 2.5rem;
+}
+
+.mb-xxl {
+  margin-block: 3rem;
+}
+
+.mb-giga {
+  margin-block: 5rem;
+}
+
+.mi-xs {
+  margin-inline: 0.5rem;
+}
+
+.mi-sm {
+  margin-inline: 1rem;
+}
+
+.mi-md {
+  margin-inline: 1.5rem;
+}
+
+.mi-lg {
+  margin-inline: 2rem;
+}
+
+.mi-xl {
+  margin-inline: 2.5rem;
+}
+
+.mi-xxl {
+  margin-inline: 3rem;
+}
+
+.mi-giga {
+  margin-inline: 5rem;
+}
+
+.font-xs {
+  font-size: 0.5rem;
+}
+
+.font-sm {
+  font-size: 0.75rem;
+}
+
+.font-md {
+  font-size: 1rem;
+}
+
+.font-lg {
+  font-size: 1.25rem;
+}
+
+.font-xl {
+  font-size: 1.5rem;
+}
+
+.font-xxl {
+  font-size: 2rem;
+}
+
+.font-giga {
+  font-size: 5rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4f4f4;
+}/*# sourceMappingURL=style.css.map */

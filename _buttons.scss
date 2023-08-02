@@ -1,0 +1,6 @@
+@mixin mainbutton($color) {
+  @extend .pb-sm;
+  background-color: $color;
+  border: none;
+  border-radius: 20px;
+}

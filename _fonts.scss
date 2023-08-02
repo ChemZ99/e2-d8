@@ -1,0 +1,25 @@
+$sizes: (
+  xs: 0.5rem,
+  sm: 0.75rem,
+  md: 1rem,
+  lg: 1.25rem,
+  xl: 1.5rem,
+  xxl: 2rem,
+  giga: 5rem,
+);
+
+@each $key, $value in $sizes {
+  .font-#{$key} {
+    font-size: $value;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: $text-color;
+}
+
+@mixin title-big {
+  @extend .font-giga;
+  color: sandybrown;
+}

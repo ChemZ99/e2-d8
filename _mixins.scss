@@ -1,0 +1,12 @@
+@mixin floating($border-color) {
+  border-radius: 50px;
+  box-shadow: 10px 10px black, -10px 10px black;
+  @if ($border-color) {
+    border: 2px solid $border-color;
+  }
+}
+
+@mixin grid($elem) {
+  display: flex;
+  flex-wrap: $elem;
+}
